@@ -6,12 +6,13 @@
  * Time: 11:12
  */
 
-use pascualmg\ApiGator;
 
 require 'vendor/autoload.php';
 $uri_humans_in_space = "http://api.open-notify.org/astros.json";
 
-echo (new ApiGator())
+var_export(
+    ((new ApiGator())
     ->setUri($uri_humans_in_space)
-    ->getArrayResponse();
+    ->getArrayResponse())['number']
+);
 
