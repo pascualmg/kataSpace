@@ -6,6 +6,13 @@
  * Time: 11:12
  */
 
+/**
+ * Con esta mierda tienes que hacer una clase o una función que obtenga
+ * el número de humanos actuales en el espacio.
+ *
+ *
+ */
+
 
 use Apigator\httpClient\ApiGator;
 
